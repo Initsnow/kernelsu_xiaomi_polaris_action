@@ -53,7 +53,7 @@ jobs:
       - name: Patch kernel source
         run: |
           cd /home/runner/kernel_sdm845
-          curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash b766b98513b5a7eb33bc1c4a76b5702bf1288f07
+          curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s b766b98513b5a7eb33bc1c4a76b5702bf1288f07
 
       - name: Build
         run: |
