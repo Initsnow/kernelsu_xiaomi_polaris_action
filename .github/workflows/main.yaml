@@ -2,8 +2,8 @@ name: build_kernelsu_for_polaris
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 4 * * 5"
+  # schedule:
+  #   - cron: "0 4 * * 5"
 jobs:
   build:
     env:
